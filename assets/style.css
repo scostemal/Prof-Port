@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(/images/header.jpg);
+    background-image: url("/images/header.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -108,7 +108,7 @@ nav {
 }
 
 .kw-input input {
-    flex:1;
+    flex: 1;
 }
 
 .search-bar form label {
