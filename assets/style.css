@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(/assets/images/ocean.jpg);
+    background-image: url(/images/header.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -48,27 +48,27 @@ nav {
 
 .container {
     padding: 0 7%;
-
-    
-
 }
 
 .header h1 {
     font-size: 4vw;
     font-weight: 500;
+    color: #fff;
 
-    background-color: red;
+    /* background-color: red;
     background-image:linear-gradient(to right, #04052b, #fff);
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
 
     text-align: center;
-    padding-top: 22%;
+    padding-top: 12%;
 }
+
+/* ------------------------------------ SEARCH BAR ----------------------------------- */
 
 .search-bar {
     background: #fff;
@@ -99,6 +99,7 @@ nav {
     border: 0;
     outline: none;
     cursor: pointer;
+    justify-content: flex-end;
 }
 
 .search-bar form button img {
@@ -113,6 +114,8 @@ nav {
 .search-bar form label {
     font-weight: 700px;
 }
+
+/* ------------------------------- MY WORK SECTION ------------------------------------ */
 
 .subtitle {
     margin: 50px 0 20px;
@@ -143,6 +146,7 @@ nav {
     color: #333;
 }
 
+/* --------------------------------- ABOUT ME SECTION ---------------------------------- */
 .about-me {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
